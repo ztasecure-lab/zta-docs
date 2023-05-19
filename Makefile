@@ -1,10 +1,10 @@
 all: pull commit
 
 pull:
-	git pull origin master
+	git pull 
 
 commit:
 	git add .
 	git commit -m "update docs"
-	git push origin master
+	git push 
 
